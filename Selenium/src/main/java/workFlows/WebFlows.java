@@ -5,6 +5,7 @@ import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import utilities.CommonOps;
 
 import java.util.ArrayList;
@@ -16,6 +17,7 @@ public class WebFlows extends CommonOps {
     @Step("Business Flow: scroll to the section")
     public static void scrollToSection(String sectionName) {
         String sectionXpath = "//h3[text()='"+sectionName+"']";
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(sectionXpath)));
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", driver.findElement(By.xpath(sectionXpath)));
     }
 
