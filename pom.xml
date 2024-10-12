@@ -10,7 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>Selenium</module>
-        <module>REST_API</module>
+<!--        <module>REST_API</module>-->
     </modules>
 
     <properties>
