@@ -14,10 +14,10 @@ pipeline {
             }
         }
     }
-    post {
-        always {
-            // Archive the test results
-            junit 'Selenium/target/surefire-reports/*.xml'
-        }
-    }
+//     post {
+//         always {
+//             // Archive the test results
+//             junit 'Selenium/target/surefire-reports/*.xml'
+//         }
+//     }
 }
