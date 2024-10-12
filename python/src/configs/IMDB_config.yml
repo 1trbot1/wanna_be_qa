@@ -1,0 +1,30 @@
+URL: https://www.imdb.com/
+logo_position:
+    x_axis: 131
+    y_axis: 12
+
+# <?xml version="1.0" encoding="UTF-8" ?>
+
+# <Environment>
+
+#     <!-- Web -->
+#     <PlatformNameOfTest>web</PlatformNameOfTest>
+#     <BrowserType>chrome</BrowserType>
+#     <URL></URL>
+
+#     <!-- Expected Results -->
+#     <allCategories_topMenu_listSize>7</allCategories_topMenu_listSize>
+#     <x_AxisOfElementIMDb>131</x_AxisOfElementIMDb>
+#     <y_AxisOfElementIMDb>12</y_AxisOfElementIMDb>
+#     <titleTextFrom_FromYourWatchlist_section>Sign in to access your Watchlist</titleTextFrom_FromYourWatchlist_section>
+#     <searchResultsSections>3</searchResultsSections>
+#     <browseTrailersTabNames>TRENDING TRAILERS,MOST ANTICIPATED,MOST POPULAR,RECENTLY ADDED</browseTrailersTabNames>
+#     <socialLinksList>5</socialLinksList>
+#     <mainMenuCategories>6</mainMenuCategories>
+#     <fullySupportedLanguage>English (United States)</fullySupportedLanguage>
+
+#     <!-- Path of Directories -->
+#     <DDTFile_TextSearch>./DDTFiles/textForSearch.csv</DDTFile_TextSearch>
+#     <DDTFile_Resolutions>./DDTFiles/resolutionsOfDisplay.csv</DDTFile_Resolutions>
+
+# </Environment>
