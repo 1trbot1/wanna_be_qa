@@ -75,6 +75,7 @@ public class CommonOps extends Base {
             throw new RuntimeException("Invalid platform");
 
         softAssert = new SoftAssert();
+        softAssertX_axisY_Axis = new SoftAssert();
     }
 
     @AfterClass(groups = "sanity")
