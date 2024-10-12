@@ -10,7 +10,7 @@ pipeline {
         stage('Test') {
             steps {
                 // Run the TestNG suite
-                sh 'mvn test -Dsurefire.suiteXmlFiles=Selenium/TestNGSuite.xml'
+                sh 'mvn test -Dsurefire.suiteXmlFiles=TestNGSuite.xml'
             }
         }
     }
